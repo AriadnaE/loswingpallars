@@ -1,0 +1,31 @@
+a {
+    color: $primary-color;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+
+.a-button {
+    background-color: $primary_color;
+    color: black!important;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.a-contact { 
+  color: $primary_color;
+  font-size: 1.6rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  border: 2px solid #fff;
+}
+
+button {
+  @extend a;
+  padding: 10px;
+  text-transform: uppercase;
+  $text_white: white;
+}

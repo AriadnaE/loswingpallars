@@ -1,0 +1,43 @@
+$border_top: 8px solid black;
+
+.bg-image {
+    background-image: url(../assets/portada_swing2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    padding: 280px 0 140px;
+}
+
+footer{
+    background-color: $subtitle_color;
+    padding: 20px;
+}
+
+.margen-background{
+    padding: 100px 0;
+}
+
+
+.background-2 {
+    background-color: #e6e6e6;
+}
+
+.bg-dark {
+    background-color: black!important;
+}
+
+@media all and (min-width: 770px) {
+    .img-top {
+        padding-top: 100px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .bg-image {
+        padding: 150px 0 100px!important;
+        p {
+            font-size: 1.4rem!important;
+        }
+    }
+}

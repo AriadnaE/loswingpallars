@@ -1,0 +1,87 @@
+$tipografy_principal: 'Montserrat', sans-serif;
+$tipografy_secundary: 'Roboto Slab' serif;
+$tipografy_decoration: 'Anton', sans-serif;
+
+
+.caracteristicas-generales {
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+	line-height: 150%;
+}
+
+h1 {
+	@extend .caracteristicas-generales;
+	color: $title_color;
+	font-size: 3.5rem;
+	font-family: $tipografy_principal;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 0.04em 0.04em $subtitle_color;
+	text-transform: uppercase;
+
+}
+
+h2 {
+	@extend .caracteristicas-generales;
+	color: $primary_color;
+	font-family: $tipografy_decoration;
+	font-size: 3.5rem;
+	margin-bottom: 30px;
+}
+
+h3 {
+	@extend .caracteristicas-generales;
+	color: $subtitle_color;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-family: $tipografy_principal;
+	font-weight: 900;
+	line-height: 1.3
+
+}
+
+h4 {
+	@extend h1;
+	font-size: 2rem;
+	text-transform: none;
+}
+
+h5 {
+	@extend .caracteristicas-generales;
+	font-size: 2rem;
+	font-family: $tipografy_principal;
+	text-transform: uppercase;
+	line-height: 110%;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+
+p {
+	@extend .caracteristicas-generales;
+	font-family: $tipografy_principal;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding-bottom: 20px;
+	font-weight: 200;
+	color: $text_color;
+}
+
+a {
+	@extend .caracteristicas-generales;
+	font-family: $tipografy_principal;
+	font-size: 1rem;
+}
+
+
+
+.text-footer {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	padding: 0;
+}
+
+.bold {
+	font-weight: 800;
+}
