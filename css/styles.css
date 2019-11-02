@@ -1,3 +1,6 @@
+.danger_color {
+  color: red; }
+
 .caracteristicas-generales, h1, h4, h2, h3, h5, p, a, button {
   font-weight: 500;
   margin: 0;
