@@ -5,8 +5,16 @@ $primary_color: #f6bd11;
 $subtitle_color: #3d3d3d; //gris texto y footer
 $placeholder_color: #b3b3b3; //gris claro
 $text_white: white; //blanco
-$danger_color:red;
+$danger_color: red;
+$sucess_color: #8cd66a;
+$gray-light: #e6e6e6;
 
 .danger_color {
 	color: $danger_color;
 }
+
+.success_color {
+	color: $sucess_color;
+	font-weight: 700;
+}
+

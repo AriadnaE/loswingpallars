@@ -1,6 +1,10 @@
 .danger_color {
   color: red; }
 
+.success_color {
+  color: #8cd66a;
+  font-weight: 700; }
+
 .caracteristicas-generales, h1, h4, h2, h3, h5, p, a, button {
   font-weight: 500;
   margin: 0;
@@ -63,6 +67,9 @@ a, button {
 .bold {
   font-weight: 800; }
 
+.align-right {
+  text-align: right; }
+
 a, button {
   color: #f6bd11;
   cursor: pointer;
@@ -87,6 +94,12 @@ a, button {
 button {
   padding: 10px;
   text-transform: uppercase; }
+
+.link-white {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline; }
 
 *,
 *:before,
@@ -155,9 +168,13 @@ section {
 .img-cartel {
   width: 400px; }
 
+.img-icon-sm {
+  width: 20px; }
+
 @media all and (max-width: 770px) {
   .img-cartel {
     width: 100%; } }
+
 .container {
   margin: 0 auto;
   max-width: 1024px;
@@ -180,6 +197,18 @@ section {
   height: 300px;
   width: 100%; }
 
+table {
+  width: 100%; }
+
+thead {
+  border-bottom: 2px solid black; }
+
+tr {
+  border-bottom: 1px solid #e6e6e6; }
+
+th, td {
+  padding: 10px; }
+
 .bg-image {
   background-image: url(../assets/portada_swing2.jpg);
   background-repeat: no-repeat;
@@ -187,6 +216,10 @@ section {
   background-position: center;
   margin: 0 auto;
   padding: 280px 0 140px; }
+
+.bg-primary-color {
+  background-color: #f6bd11;
+  padding: 140px 0 60px; }
 
 footer {
   background-color: #3d3d3d;
@@ -204,20 +237,22 @@ footer {
 @media all and (min-width: 770px) {
   .img-top {
     padding-top: 100px; } }
+
 @media all and (max-width: 600px) {
   .bg-image {
     padding: 150px 0 100px !important; }
     .bg-image p {
       font-size: 1.4rem !important; } }
+
 .box-2 {
   margin-top: 20px;
   width: 45%;
   float: left;
   padding-right: 10px; }
 
-.bg-image {
+.bg-image, .bg-primary-color {
   border: 40px; }
-  .bg-image h1, .bg-image h4 {
+  .bg-image h1, .bg-image h4, .bg-primary-color h1, .bg-primary-color h4 {
     text-align: center;
     padding-top: 30px;
     color: #f6bd11;
@@ -226,7 +261,7 @@ footer {
     letter-spacing: 4px;
     font-weight: 600;
     text-shadow: 0.03em 0.03em #ffffff; }
-  .bg-image p {
+  .bg-image p, .bg-primary-color p {
     font-size: 2rem;
     color: white;
     text-align: center;
@@ -234,10 +269,15 @@ footer {
     font-weight: 100;
     line-height: 1; }
 
+.bg-primary-color h1, .bg-primary-color h4 {
+  color: white;
+  text-shadow: 0.03em 0.03em #000000; }
+
 @media all and (max-width: 900px) {
   .box-2 {
     width: 100%;
     padding-right: 0; } }
+
 .box-center {
   margin: 0 auto;
   display: block;
@@ -262,33 +302,30 @@ header {
   .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
     margin-left: 0;
     padding-left: 10px; } }
+
 @media all and (max-width: 770px) {
   .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
     margin-left: 0;
     margin-bottom: 10px; }
-
   .img-logo {
     width: 60px; } }
+
 @media all and (max-width: 1100px) {
   .container {
     padding-left: 5%;
     padding-right: 5%; }
-
   h5 {
     font-size: 3rem; } }
+
 @media all and (max-width: 1000px) {
   h1, h4 {
     font-size: 3rem; }
-
   h2 {
     font-size: 2.5rem; }
-
   h3 {
     font-size: 2rem; }
-
   p {
     font-size: 1rem; } }
+
 footer {
   background-color: #f6bd11; }
-
-/*# sourceMappingURL=styles.css.map */
