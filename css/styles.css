@@ -273,16 +273,26 @@ footer {
   color: white;
   text-shadow: 0.03em 0.03em #000000; }
 
-@media all and (max-width: 900px) {
-  .box-2 {
-    width: 100%;
-    padding-right: 0; } }
-
 .box-center {
   margin: 0 auto;
   display: block;
   width: 130px;
   margin-top: 20px; }
+
+.line-t {
+  border-top: 1px solid #f6bd11; }
+
+.img-curs {
+  width: 50%;
+  float: left;
+  padding: 5px; }
+
+@media all and (max-width: 900px) {
+  .box-2 {
+    width: 100%;
+    padding-right: 0; }
+  .img-curs {
+    width: 100%; } }
 
 header {
   background-color: black;
