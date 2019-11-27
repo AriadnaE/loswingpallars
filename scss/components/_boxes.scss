@@ -2,9 +2,12 @@
 
 .box-2{
 	margin-top: 20px;
-	width: 45%;
+	width: 50%;
 	float: left;
 	padding-right: 10px;
+}
+.centered{
+	text-align: center;
 }
 
 .bg-image, .bg-primary-color {
@@ -47,6 +50,9 @@
 
 .line-t {
 	border-top: 1px solid $primary-color;
+	margin-top:30px;
+	padding-top:35px;
+	margin-bottom:5px;
 }
 
 .img-curs {
@@ -65,4 +71,3 @@
   	width: 100%;
   }
 }
-
