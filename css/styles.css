@@ -157,6 +157,9 @@ section {
 .margin-r-sm {
   margin-right: 10px; }
 
+.no-margin {
+  margin: 0 !important; }
+
 .inline-block {
   display: inline-block; }
 
@@ -210,7 +213,7 @@ th, td {
   padding: 10px; }
 
 .bg-image {
-  background-image: url(../assets/portada_swing2.jpg);
+  background-image: url(../assets/portada_swing3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -258,12 +261,11 @@ footer {
   .bg-image h1, .bg-image h4, .bg-primary-color h1, .bg-primary-color h4 {
     text-align: center;
     padding-top: 30px;
-    color: #f6bd11;
+    color: white;
     font-size: 3.5rem;
     font-family: "Anton", sans-serif;
     letter-spacing: 4px;
-    font-weight: 600;
-    text-shadow: 0.03em 0.03em #ffffff; }
+    font-weight: 600; }
   .bg-image p, .bg-primary-color p {
     font-size: 2rem;
     color: white;
